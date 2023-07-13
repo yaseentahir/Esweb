@@ -26,17 +26,22 @@ const CTA = ({ onPressed, onConfirmation, onPressedCancel }) => {
       ref={ref}
       animate={controls}
       transition={{ type: "spring", duration: 1 }}
-      variants={{ hidden: { x: -200, opacity: 0 }, visible: { x: 0, opacity: 1 } }}
+      variants={{
+        hidden: { x: -200, opacity: 0 },
+        visible: { x: 0, opacity: 1 },
+      }}
       className={`${classes.bg} mx-auto mt-24 px-5 py-2 flex items-center md:flex-row flex-col lg:max-w-3xl md:max-w-4xl max-w-full`}
     >
       <div className={`flex-auto`}>
-        <h1 className={`uppercase md:text-2xl text-lg md:mb-0 mb-3`}>Do you have an Awesome Digital Business Plan?</h1>
+        <h1 className={`uppercase md:text-2xl text-lg md:mb-0 mb-3`}>
+          Do you have an Awesome Digital Business Plan?
+        </h1>
       </div>
       <button
         onClick={onPressed}
         className={`font-normal ${classes.button} md:h-11 h-9 md:w-2/4 w-full md:text-xl text-lg`}
       >
-        LET'S GET STARTED
+        LET&apos;S GET STARTED
       </button>
     </motion.div>
   );

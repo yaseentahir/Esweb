@@ -97,7 +97,7 @@ export default function RootLayout({ children }) {
         )}
         <div id="fb-root"></div>
         <div id="fb-customer-chat" className="fb-customerchat"></div>
-        <Script strategy="lazyOnload">
+        <Script strategy="lazyOnload" id="my-script">
           {`
             var chatbox = document.getElementById('fb-customer-chat');
             chatbox.setAttribute("page_id", "106967095106378");

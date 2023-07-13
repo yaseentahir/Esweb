@@ -661,7 +661,7 @@ const MultiStepForm = ({ dismissForm }) => {
           Thank you for reaching out to us.
         </p>
         <p className={`${classes.subTitle}`}>
-          We'll get back to you shortly after evaluating your request.
+          We&apos;ll get back to you shortly after evaluating your request.
         </p>
         <div className={`mt-5`}>
           <button
