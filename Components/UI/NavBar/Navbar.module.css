@@ -1,4 +1,4 @@
-.onTop{
+.onTop {
   z-index: 1000;
 }
 
@@ -60,7 +60,7 @@
     border-radius: 5px !important;
   }
 
-  .hoverLink:hover div{
+  .hoverLink:hover div {
     background-color: var(--gray);
     border-radius: 5px;
   }

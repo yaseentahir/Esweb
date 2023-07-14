@@ -50,7 +50,7 @@ const Hero = ({ children, onContactPressed, siteLoaded }) => {
         {/*Button*/}
         <Button
           className={`mt-10 md:text-lg text-sm p-3 z-0 md:font-light font-medium hero-btn`}
-          onClick={onContactPressed}
+          onPressed={onContactPressed}
         >
           Have an idea ping us
         </Button>

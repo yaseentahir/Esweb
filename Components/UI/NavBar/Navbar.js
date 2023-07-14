@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 // Plugin Imports
 import { Link } from "react-scroll";
+import { useRouter } from "next/navigation";
 
 // Styles Import
 import classes from "./Navbar.module.css";
@@ -14,9 +15,13 @@ import LogoImage from "../../../Assets/Images/Logo_White.svg";
 import Button from "../Button/Button";
 
 const NavBar = ({ navList, onContactPressed }) => {
+  const router = useRouter();
   const [isScrolling, setIsScrolling] = useState(false);
   const [showMenu, setShowMenu] = useState("hidden");
-
+  const onContactPressed1 = (e) => {
+    e.preventDefault();
+    router.push("facebook.com");
+  };
   let backgroundColor = isScrolling
     ? classes.backGroundColor
     : classes.backGroundColordim;
@@ -80,7 +85,7 @@ const NavBar = ({ navList, onContactPressed }) => {
             {/* Button */}
             <Button
               onPressed={onContactPressed}
-              className={`md:ml-3 px-3 py-2 font-normal z-20 text-sm`}
+              className={`md:ml-3 px-3 py-2 font-normal z-20 text-sm `}
             >
               Contact US
             </Button>

@@ -23,8 +23,7 @@ const Home = ({ siteloading, dispForm, dismissForm }) => {
   const contactButtonPressed = () => {
     // disableScroll();
     // setDispForm(true);
-    // window.open("https://form.jotform.com/223421865801049", "_blank").focus();
-    console.log("hello");
+    window.open("https://form.jotform.com/223421865801049", "_blank").focus();
   };
   return (
     <Fragment>

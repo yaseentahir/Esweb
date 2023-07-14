@@ -133,3 +133,6 @@ code {
 .hero-btn {
   z-index: 111111 !important;
 }
+button {
+  z-index: 1000 !important;
+}
