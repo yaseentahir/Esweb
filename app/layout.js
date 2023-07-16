@@ -49,10 +49,6 @@ export default function RootLayout({ children }) {
     // setDispForm(true);
     window.open("https://form.jotform.com/223421865801049", "_blank").focus();
   };
-  const dismissForm = () => {
-    enableScroll();
-    setDispForm(false);
-  };
 
   return (
     <html lang="en">
