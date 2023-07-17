@@ -5,6 +5,7 @@ import { Prompt } from "next/font/google";
 import React, { Fragment, useState, useEffect } from "react";
 import Script from "next/script";
 import { useRouter } from "next/navigation";
+
 // Hooks Import
 import useScrollBlock from "@/Hooks/useScrollBlock";
 
@@ -52,6 +53,9 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+    <title>Elysium Sols</title>
+  </head>
       <body className={prompt.className}>
         {siteloading && <LoadScreen />}
         {locpath === "/" ? (
