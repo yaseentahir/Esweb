@@ -36,7 +36,7 @@ const NavBar = ({ navList, onContactPressed }) => {
   };
 
   return (
-    <nav className={`py-3 px-3 fixed z-10 inset-x-0`}>
+    <nav className={`py-3 px-3 fixed z-50 inset-x-0`}>
       <div
         className={`mx-auto px-2 py-2 rounded ${backgroundColor} ${classes.onTop} md:max-w-6xl max-w-full`}
       >
@@ -85,7 +85,7 @@ const NavBar = ({ navList, onContactPressed }) => {
             {/* Button */}
             <Button
               onPressed={onContactPressed}
-              className={`md:ml-3 px-3 py-2 font-normal z-20 text-sm `}
+              className={`md:ml-3 px-3 py-2 font-normal z-20 text-sm contact`}
             >
               Contact US
             </Button>
@@ -142,7 +142,7 @@ const NavBar = ({ navList, onContactPressed }) => {
           {/* Button */}
           <Button
             onPressed={onContactPressed}
-            className={`lg:ml-3 mt-5 mb-2 mx-auto md:ml-3 px-3 py-2 w-11/12 font-normal z-20 text-sm`}
+            className={`lg:ml-3 mt-5 mb-2 mx-auto md:ml-3 px-3 py-2 w-11/12 font-normal z-20 text-sm contact`}
           >
             Contact US
           </Button>
