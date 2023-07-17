@@ -4,14 +4,14 @@ const PortfolioData = [
     name: "YDSF",
     type: "web",
     imageUrl:
-      "https://cdn.dribbble.com/users/9492995/screenshots/16810692/media/19b763d973c41d499cc0028b39188825.png",
+      "/Images/web1.png",
   },
   {
     id: 1,
     name: "HOMLY",
     type: "web",
     imageUrl:
-      "https://cdn.dribbble.com/users/1344595/screenshots/16807802/media/db8bf429d9680051219e1c12b4bbdca4.png",
+      "/Images/web2.png",
   },
 
   {
@@ -19,49 +19,49 @@ const PortfolioData = [
     name: "MR.studio",
     type: "web",
     imageUrl:
-      "https://cdn.dribbble.com/users/6047818/screenshots/16810452/media/4a89c9053c7bf908235b5e754ab876b3.png",
+      "/Images/web3.png",
   },
   {
     id: 4,
     name: "Ecstasy",
     type: "web",
     imageUrl:
-      "https://cdn.dribbble.com/users/2064121/screenshots/16805631/media/d41f2fd434987c65b6acc48667a4fb8a.jpg",
+      "/Images/web4.jpg",
   },
   {
     id: 5,
     name: "FinApp",
     type: "mobile",
     imageUrl:
-      "https://cdn.dribbble.com/users/1963775/screenshots/16810609/media/87dfaa7b44ff89b9cd1e077fc33245ae.png",
+      "/Images/mobile1.png",
   },
   {
     id: 6,
     name: "Socia",
     type: "mobile",
     imageUrl:
-      "https://cdn.dribbble.com/users/1997192/screenshots/16808071/media/b6dfaa8c6b5dd3f0f16ac356ec0af1ca.png",
+      "/Images/mobile2.png",
   },
   {
     id: 7,
     name: "Bictal",
     type: "mobile",
     imageUrl:
-      "https://cdn.dribbble.com/users/2547736/screenshots/16809643/media/6c05640cf8ba8753227b09754037f601.png",
+      "/Images/mobile3.png",
   },
   {
     id: 8,
     name: "Jobber",
     type: "mobile",
     imageUrl:
-      "https://cdn.dribbble.com/users/26642/screenshots/16806607/media/f343e40d6ac84237e41137b8c7e4b9a2.png",
+      "/Images/mobile4.png",
   },
   {
     id: 9,
     name: "GamConn",
     type: "mobile",
     imageUrl:
-      "https://cdn.dribbble.com/users/7514969/screenshots/16665763/media/2823f82f0f1670b5cd2d3c03278ddc9b.png",
+      "/Images/mobile5.png",
   },
   {
     id: 10,

@@ -49,7 +49,7 @@ const NavBar = ({ navList, onContactPressed }) => {
                 alt="Logo"
                 className="inline-block w-10 mr-3 text-white"
               />
-              <span className="text-white font-light text-lg font-sans">
+              <span className="text-white font-light text-lg ">
                 Elysium Sols
               </span>
             </a>
@@ -63,7 +63,7 @@ const NavBar = ({ navList, onContactPressed }) => {
                 className={`px-3 cursor-pointer py-2 select-none text-white ${
                   classes.opactiy70
                 } font-medium
-                            text-sm uppercase font-sans ${classes.hoverLink}
+                            text-sm uppercase  ${classes.hoverLink}
                             ${
                               item.id === 1 &&
                               isScrolling === false &&
@@ -120,7 +120,7 @@ const NavBar = ({ navList, onContactPressed }) => {
               className={`px-3 py-2 select-none text-white ${
                 classes.opactiy70
               } font-medium text-sm 
-                          uppercase font-sans ${classes.hoverLink} 
+                          uppercase ${classes.hoverLink} 
                           ${
                             item.id === 1 &&
                             isScrolling === false &&
