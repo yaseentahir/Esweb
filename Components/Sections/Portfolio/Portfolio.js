@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 // Plugin Import
-// import Loader from "react-loader-spinner";
+import { ThreeDots } from "react-loader-spinner"
 import { useAnimation, motion } from "framer-motion";
 
 // Components Import
@@ -75,7 +75,7 @@ const Portfolio = () => {
         {isLoading === true ? (
           <div className={`w-full mt-10`}>
             <div className={`max-w-max mx-auto`}>
-              {/* <Loader type="ThreeDots" color="#777777" height={50} width={50} timeout={1000} /> */}
+              <ThreeDots color="#777777" height={50} width={50} timeout={1000} />
             </div>
           </div>
         ) : (
