@@ -7,7 +7,11 @@ module.exports = {
     "./constants/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      zIndex: {
+        'nav': '10000000000000',
+      }
+    },
   },
   plugins: [],
 };

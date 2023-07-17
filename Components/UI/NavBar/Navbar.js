@@ -36,7 +36,7 @@ const NavBar = ({ navList, onContactPressed }) => {
   };
 
   return (
-    <nav className={`py-3 px-3 fixed z-50 inset-x-0`}>
+    <nav className={`py-3 px-3 fixed z-nav inset-x-0`}>
       <div
         className={`mx-auto px-2 py-2 rounded ${backgroundColor} ${classes.onTop} md:max-w-6xl max-w-full`}
       >
