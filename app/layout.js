@@ -54,6 +54,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <meta
+  name="description"
+  content="Elysium Sols was founded in January 2019 with a mission to bring agility to small and large organizations using cutting-edge technology. Since its inception, the company has successfully helped numerous organizations, startups and enterprises alike to achieve their technology & business goals. The company has enabled startups to find successful exits and has helped enterprises be more agile and win new business."
+/>
     <title>Elysium Sols</title>
   </head>
       <body className={prompt.className}>
