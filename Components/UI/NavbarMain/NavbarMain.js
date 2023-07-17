@@ -4,9 +4,6 @@ import React, { useState } from "react";
 // Styles Import
 import classes from "./NavbarMain.module.css";
 
-// Logo Image Import
-import LogoImage from "../../../Assets/Images/Logo_White.svg";
-
 // Component Import
 import Button from "../Button/Button";
 
@@ -29,7 +26,7 @@ const NavbarMain = ({ onContactPressed }) => {
           <div className="flex items-center justify-center">
             <a className="flex justify-center items-center" href="/">
               <img
-                src={LogoImage}
+                src="/Images/Logo_White.svg"
                 alt="Logo"
                 className="inline-block w-10 mr-3 text-white"
               />

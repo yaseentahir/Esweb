@@ -70,6 +70,7 @@ const NavBar = ({ navList, onContactPressed }) => {
                               classes.active
                             }`}
                 activeClass={classes.active}
+                href={`#${item.section}`}
                 to={item.section}
                 spy={true}
                 smooth={true}
@@ -127,6 +128,7 @@ const NavBar = ({ navList, onContactPressed }) => {
                             classes.active
                           }`}
               activeClass={classes.active}
+              href={`#${item.section}`}
               to={item.section}
               spy={true}
               smooth={true}
