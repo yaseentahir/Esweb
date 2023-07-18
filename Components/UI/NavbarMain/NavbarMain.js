@@ -30,7 +30,7 @@ const NavbarMain = ({ onContactPressed }) => {
                 alt="Logo"
                 className="inline-block w-10 mr-3 text-white"
               />
-              <span className="text-white font-light text-lg font-sans">
+              <span className="text-white font-light text-lg ">
                 Elysium Sols
               </span>
             </a>
@@ -90,7 +90,7 @@ const NavbarMain = ({ onContactPressed }) => {
           {/* Button */}
           <Button
             onPressed={onContactPressed}
-            className={`lg:ml-3 mt-5 mb-2 mx-auto md:ml-3 px-3 py-2 w-11/12 font-normal z-20 text-sm`}
+            className={`lg:ml-3 mt-5 mb-2 mx-auto md:ml-3 px-3 py-2 w-11/12 font-normal z-20 text-sm contact`}
           >
             Contact US
           </Button>
