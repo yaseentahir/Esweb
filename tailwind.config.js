@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       zIndex: {
-        'nav': '10000000000000',
-      }
+        nav: "1000000000",
+      },
     },
   },
   plugins: [],
