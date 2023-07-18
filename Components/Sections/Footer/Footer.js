@@ -107,6 +107,7 @@ const Footer = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  href="#home"
                 >
                   <li className={`mb-3 font-light`}>Home</li>
                 </Link>
@@ -116,6 +117,7 @@ const Footer = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  href="#about"
                 >
                   <li className={`mb-3 font-light`}>About Us</li>
                 </Link>
@@ -125,6 +127,7 @@ const Footer = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  href="#services"
                 >
                   <li className={`mb-3 font-light`}>Services</li>
                 </Link>
@@ -134,6 +137,7 @@ const Footer = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  href="#process"
                 >
                   <li className={`font-light`}>Process</li>
                 </Link>
@@ -145,6 +149,7 @@ const Footer = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  href="#portfolio"
                 >
                   <li className={`mb-3 font-light`}>Portfolio</li>
                 </Link>
@@ -154,6 +159,7 @@ const Footer = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  href="#clients"
                 >
                   <li className={`font-light`}>Clients</li>
                 </Link>
