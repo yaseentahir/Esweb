@@ -8,14 +8,14 @@ return (
   {/* eslint-disable-next-line @next/next/inline-script-id */}
   <Script strategy="lazyOnload">
     {`
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "xxREPLACEMEWITHREALDATAxxxx");
-      chatbox.setAttribute("attribution", "biz_inbox");
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "193516470797852");
+        chatbox.setAttribute("attribution", "biz_inbox");
 
       window.fbAsyncInit = function() {
         FB.init({
           xfbml            : true,
-          version          : 'v15.0'
+          version          : 'v17.0'
         });
       };
 
@@ -33,3 +33,4 @@ return (
 };
 
 export default FacebookMessenger;
+
