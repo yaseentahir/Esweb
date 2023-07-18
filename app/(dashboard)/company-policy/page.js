@@ -159,7 +159,7 @@ const CompanyPolicy = ({ siteloading }) => {
                     times be deemed to be sole property of the company. Also,
                     the company will at all times, have the sole proprietary
                     right in any new system which you may develop while in the
-                    company's service.{" "}
+                    company&apos;s service.{" "}
                   </li>
                   <li className="md:px-10 mb-1">Unauthorized absence.</li>
                 </ul>
